@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đà Nẵng - Thành phố đáng sống</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">ĐÀ NẴNG</div>
+        <ul class="menu">
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#places">Địa điểm</a></li>
+            <li><a href="#food">Ẩm thực</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>KHÁM PHÁ ĐÀ NẴNG</h1>
+        <p>Thành phố biển xinh đẹp – năng động – hiện đại và là một trong những điểm đến hấp dẫn của Việt Nam.</p>
+        <a href="#places" class="button">Khám phá ngay</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=1000&q=80" alt="Đà Nẵng">
+    </div>
+    <div class="about-content">
+        <h2>Về Đà Nẵng</h2>
+        <p>Đà Nẵng là một thành phố ven biển nằm ở miền Trung Việt Nam. Thành phố nổi tiếng với những bãi biển tuyệt đẹp, cảnh quan thiên nhiên phong phú và những công trình hiện đại.</p>
+        <p>Đà Nẵng còn được biết đến với tên gọi <strong>"Thành phố đáng sống"</strong> bởi môi trường trong lành, con người thân thiện và cơ sở hạ tầng phát triển.</p>
+        <div class="info">
+            <div><h3>🌊</h3><p>Biển đẹp</p></div>
+            <div><h3>🏔️</h3><p>Thiên nhiên</p></div>
+            <div><h3>🍜</h3><p>Ẩm thực</p></div>
+        </div>
+    </div>
+</section>
+
+<section id="places" class="places">
+    <div class="section-title">
+        <h2>Địa điểm nổi bật</h2>
+        <p>Những địa điểm bạn không nên bỏ qua khi đến Đà Nẵng</p>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="c:\Users\QUOC BAO\Pictures\cau-rong-4.jpg" alt="Cầu Rồng">
+            <div class="card-content">
+                <h3>🐉 Cầu Rồng</h3>
+                <p>Biểu tượng nổi tiếng của Đà Nẵng, đặc biệt ấn tượng với màn phun lửa và phun nước vào cuối tuần.</p>
+                <button onclick="showInfo('Cầu Rồng')">Xem thêm</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="c:\Users\QUOC BAO\Pictures\0idnltvm0p2m1698943217828.png" alt="Bà Nà Hills">
+            <div class="card-content">
+                <h3>🏔️ Bà Nà Hills</h3>
+                <p>Khu du lịch nổi tiếng với Cầu Vàng, khí hậu mát mẻ và khung cảnh tuyệt đẹp.</p>
+                <button onclick="showInfo('Bà Nà Hills')">Xem thêm</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="c:\Users\QUOC BAO\Pictures\chiem-nguong-bien-my-khe-1-trong-10-bai-bien-dep-nhat-chau-a-05.jpg" alt="Biển Mỹ Khê">
+            <div class="card-content">
+                <h3>🌊 Biển Mỹ Khê</h3>
+                <p>Một trong những bãi biển nổi tiếng nhất Đà Nẵng với bãi cát trắng và làn nước trong xanh.</p>
+                <button onclick="showInfo('Biển Mỹ Khê')">Xem thêm</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="c:\Users\QUOC BAO\Pictures\Nui-Ngu-Hanh-Son-768x514.png" alt="Ngũ Hành Sơn">
+            <div class="card-content">
+                <h3>⛰️ Ngũ Hành Sơn</h3>
+                <p>Quần thể núi đá vôi nổi tiếng với nhiều hang động, chùa chiền và cảnh quan thiên nhiên độc đáo.</p>
+                <button onclick="showInfo('Ngũ Hành Sơn')">Xem thêm</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="food" class="food">
+    <div class="section-title">
+        <h2>Ẩm thực Đà Nẵng</h2>
+        <p>Những món ăn đặc sản nhất định phải thử</p>
+    </div>
+
+    <div class="food-list">
+        <div class="food-item">
+            <div class="food-icon">🍜</div>
+            <h3>Mì Quảng</h3>
+            <p>Món ăn đặc trưng của miền Trung với sợi mì dai và hương vị đậm đà.</p>
+        </div>
+        <div class="food-item">
+            <div class="food-icon">🥣</div>
+            <h3>Bún chả cá</h3>
+            <p>Món ăn nổi tiếng với nước dùng thanh ngọt và chả cá thơm ngon.</p>
+        </div>
+        <div class="food-item">
+            <div class="food-icon">🥩</div>
+            <h3>Bánh tráng cuốn thịt heo</h3>
+            <p>Thịt heo luộc cuốn cùng rau sống, bánh tráng và mắm nêm.</p>
+        </div>
+    </div>
+</section>
+
+<section class="banner">
+    <div>
+        <h2>Đà Nẵng đang chờ bạn!</h2>
+        <p>Hãy đến và trải nghiệm vẻ đẹp của thành phố biển.</p>
+        <button onclick="welcome()">Tôi muốn khám phá</button>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Liên hệ</h2>
+    <p>Website giới thiệu du lịch Đà Nẵng</p>
+    <p>📍 Đà Nẵng, Việt Nam</p>
+    <p>📧 danang@example.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Đà Nẵng Travel | Website được xây dựng bằng HTML, CSS và JavaScript</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
